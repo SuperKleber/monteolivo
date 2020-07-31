@@ -1,0 +1,21 @@
+.emergency {
+  height: 33vh;
+  .flexCenter();
+  .shapePresetRed();
+  border-radius: 0;
+}
+.emergencyModal {
+  background: fade(@red, 85%) !important;
+  .flexCenterColumn();
+  .closeButton {
+    width: 50px;
+    height: 50px;
+    padding: @size;
+    font-size: 2em;
+  }
+  .emergencyModalCard {
+    width: 80vw;
+    height: 80vh;
+    max-width: 300px;
+  }
+}

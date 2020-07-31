@@ -1,0 +1,89 @@
+//neumorphism
+.shapeFlat {
+  border-radius: @sizeSuperBig;
+  background: #f6eeda;
+  box-shadow: 6px 6px 12px #b6b0a1, -6px -6px 12px #ffffff;
+}
+.shapePreset {
+  border-radius: @sizeSuperBig;
+  background: #f6eeda;
+  box-shadow: inset 6px 6px 12px #b6b0a1, inset -6px -6px 12px #ffffff;
+}
+.buttonShape {
+  color: @gray;
+  .button();
+  .shapeFlat();
+  &:hover {
+    .shapePreset;
+  }
+}
+.shapeFlatRed {
+  border-radius: @sizeSuperBig;
+  background: #df6666;
+  box-shadow: 6px 6px 12px #a54b4b, -6px -6px 12px #ff8181;
+}
+.shapePresetRed {
+  border-radius: @sizeSuperBig;
+  background: #df6666;
+
+  box-shadow: inset 6px 6px 12px #a54b4b, inset -6px -6px 12px #ff8181;
+}
+.buttonShapeRed {
+  .button();
+  color: @whitePaper;
+  .shapeFlatRed();
+  &:hover {
+    .shapePresetRed;
+  }
+}
+//containers and components
+.container {
+  padding: @sizeSuperBig;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexCenterColumn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.flexAroundColumn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.fullViewPort {
+  width: 100vw;
+  height: 100vh;
+}
+.fullWidth {
+  // width: 100%;
+  width: -webkit-fill-available;
+}
+
+.button {
+  border: none;
+  background: none;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: @sizeSuperBig;
+  cursor: pointer;
+  text-decoration: none;
+  .flexCenter();
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+//font
+.bold {
+  font-weight: bold;
+}
+.white {
+  color: @whitePaper;
+}
