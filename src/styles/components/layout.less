@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   background: @whitePaper;
   border: none;
@@ -5,10 +8,48 @@ body {
   font-family: @font;
   font-weight: 500;
   color: @gray;
+  @media (min-width: @l) {
+    height: 100vh;
+    overflow: hidden;
+  }
 }
 h1 {
   font-size: 1.5em;
 }
 h4 {
   font-weight: 500;
+}
+ul {
+  padding: 0;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 6px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  .shapeFlat(@gold);
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:active {
+  background: white;
+}
+::-webkit-scrollbar-track {
+  .shapePreset(@whitePaper);
+
+  // background: white;
+  // border: 0px none #ffffff;
+  // border-radius: 16px;
+}
+::-webkit-scrollbar-track:hover {
+  background: white;
+}
+::-webkit-scrollbar-track:active {
+  background: white;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
 }

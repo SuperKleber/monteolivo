@@ -1,0 +1,19 @@
+.firstView {
+  margin-top: @menuHeight;
+  @media (min-width: @l) {
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100vh;
+    .emergency {
+      border-radius: @sizeSuperBig;
+      height: calc(100vh - @menuHeight);
+    }
+  }
+  .fullWidth;
+}
+.infoButton {
+  @media (min-width: @l) {
+    display: none;
+  }
+}

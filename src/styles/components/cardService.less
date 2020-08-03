@@ -1,0 +1,38 @@
+.cardService {
+  margin: @sizeSuperBig 0;
+  width: 250px;
+  height: 550px;
+  padding: @sizeSuperBig;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .listServices {
+    overflow: auto;
+    max-height: 300px;
+  }
+  .priceContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    .price {
+      padding: @sizeBig;
+      .shapePreset(@red, @whitePaper);
+      margin-bottom: @sizeBig;
+    }
+    .viewOffer {
+      .shapePreset(@green, @gray);
+      font-weight: bold;
+    }
+    .offer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .action {
+    margin-top: auto;
+    .buttonShape(@green, @whitePaper);
+    font-weight: bold;
+  }
+}

@@ -1,12 +1,18 @@
 .emergency {
   height: 33vh;
   .flexCenter();
-  .shapePresetRed();
+  .shapePreset(@red);
   border-radius: 0;
+  .button {
+    .buttonShape(@red, @whitePaper);
+  }
 }
 .emergencyModal {
   background: fade(@red, 85%) !important;
   .flexCenterColumn();
+  .button {
+    .buttonShape(@red, @whitePaper);
+  }
   .closeButton {
     width: 50px;
     height: 50px;
