@@ -17,7 +17,7 @@
     align-items: flex-start;
     .price {
       padding: @sizeBig;
-      .shapePreset(@red, @whitePaper);
+      .shapePreset();
       margin-bottom: @sizeBig;
     }
     .viewOffer {
@@ -28,8 +28,12 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      .shapeFlat(#dae6bc);
+      .fullWidth;
+      padding: @sizeBig;
     }
   }
+
   .action {
     margin-top: auto;
     .buttonShape(@green, @whitePaper);

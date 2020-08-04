@@ -16,7 +16,7 @@ const data = {
         "Aviso NECROLOGICO virtual / obituario",
         "Entrega de un libro de condolencias con aspectos relacionados a las honras fúnebres",
       ],
-      price: "4490Bs",
+      price: "4,490 BOB",
     },
     {
       title: "SERVICIO EXPRESS ⏩",
@@ -28,7 +28,7 @@ const data = {
         "Formolización por 24 horas",
         "Personal uniformado para la atención",
       ],
-      price: "3690Bs",
+      price: "3,690 BOB",
     },
     {
       title: "SERVICIO ECOLÓGICO 🌲",
@@ -60,8 +60,8 @@ const data = {
         "Aviso NECROLOGICO virtual / obituario",
         "Personal uniformado para la atención",
       ],
-      price: "6990Bs",
-      offerPrice: "5990Bs",
+      price: "6,990 BOB",
+      offerPrice: "5,990 BOB",
     },
     {
       title: "SERVICIO ÉLITE 👔",
@@ -103,8 +103,8 @@ const data = {
         "Aviso NECROLOGICO virtual / obituario",
         "Entrega de un libro de condolencias con aspectos relacionados a las honras fúnebres",
       ],
-      price: "9990Bs",
-      offerPrice: "7990Bs",
+      price: "9,990 BOB",
+      offerPrice: "7,990 BOB",
     },
     {
       title: "SERVICIO CROWN 👑",
@@ -162,8 +162,8 @@ const data = {
         "Tarjetas de agradecimiento",
         "Transporte al cementerio en un MICRO",
       ],
-      price: "12990Bs",
-      offerPrice: "10990Bs",
+      price: "12,990 BOB",
+      offerPrice: "10,990 BOB",
     },
     {
       title: "SERVICIO ROYAL 🏰",
@@ -217,8 +217,8 @@ const data = {
         "Entrega de un libro de condolencias con aspectos relacionados a las honras fúnebres",
         "Tarjetas de agradecimiento",
       ],
-      price: "15990Bs",
-      offerPrice: "13990Bs",
+      price: "15,990 BOB",
+      offerPrice: "13,990 BOB",
     },
     {
       title: "SERVICIO PLATINUM ⬜",
@@ -272,8 +272,8 @@ const data = {
         "Entrega de un libro de condolencias con aspectos relacionados a las honras fúnebres",
         "Tarjetas de agradecimiento",
       ],
-      price: "17990Bs",
-      offerPrice: "15990Bs",
+      price: "17,990 BOB",
+      offerPrice: "15,990 BOB",
     },
   ],
 };

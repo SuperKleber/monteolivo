@@ -12,21 +12,30 @@ const Index = () => {
           <h4>
             En esos momentos difíciles <br /> somos tu mejor compañía
           </h4>
-          <div className="gallery"></div>
+          <div className="gallery ">
+            <div className="imgContainer">
+              <img src="/img/cartel-auto.jpg" alt="funeraria con auto" />
+            </div>
+            <div className="imgContainer large">
+              <img
+                src="/img/foto1.jpg"
+                alt="funeraria santa cruz ataud velacion"
+              />
+            </div>
+          </div>
         </div>
         <Emergency />
-        <div
-          style={{ height: 250 }}
-          className="container flexCenterColumn infoButton"
-        >
-          <a href="#services" className="button fullWidth">
-            SÓLO QUIERO MÁS INFO
-          </a>
-          <br />
-          <img src="/icons/arrow-down.svg" alt="flecha abajo" width="30" />
-        </div>
+
         <Services />
       </div>
+      <style jsx="true" global="true">{`
+        @media (min-width: 990px) {
+          body {
+            height: 100vh;
+            overflow: hidden;
+          }
+        }
+      `}</style>
     </Layout>
   );
 };

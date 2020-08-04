@@ -4,7 +4,14 @@ const Menu = () => {
   const [openMenu, setOpenMenu] = useState(false);
   return (
     <div className="menu container fullWidth  ">
-      <div className="logo bold ">MonteOlivo</div>
+      {/* <div className="logo bold ">MonteOlivo</div> */}
+      <div>
+        <img
+          width="100px"
+          src="/img/logo-transparent.png"
+          alt="logo monteolivo funeraria"
+        />
+      </div>
       <div
         onClick={() => setOpenMenu(!openMenu)}
         className="burgerButton button"
@@ -19,7 +26,7 @@ const Menu = () => {
             <Link className="menuItem" to="/">
               Inicio
             </Link>
-            <Link className="menuItem" to="#services">
+            <Link className="menuItem noLarge" to="#services">
               Servicios
             </Link>
             <Link className="menuItem" to="/eco">
