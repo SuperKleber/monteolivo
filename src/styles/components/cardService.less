@@ -29,8 +29,20 @@
       justify-content: center;
       align-items: center;
       .shapeFlat(#dae6bc);
+      // .shapeFlat();
+      border: 2px solid @green;
+      box-shadow: 0px 0px 10px 5px @green;
+      animation: titilar 0.5s infinite alternate;
       .fullWidth;
       padding: @sizeBig;
+      @keyframes titilar {
+        from {
+          box-shadow: 0px 0px 2px 1px @green;
+        }
+        to {
+          box-shadow: 0px 0px 10px 5px @green;
+        }
+      }
     }
   }
 

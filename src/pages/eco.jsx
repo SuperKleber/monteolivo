@@ -6,6 +6,15 @@ const Eco = () => {
       <div className="container fullWidth flexCenter">
         <div className="eco">
           <h1>Servicios Ecológicos</h1>
+          <div className="video">
+            <iframe
+              className="frameYoutube"
+              src="https://www.youtube.com/embed/tkb6uD2OYbY"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
           <p>
             La tendencia ecologista que se expandió al mercado funerario, cada
             vez son más numerosas las empresas que fabrican ataúdes ecológicos
