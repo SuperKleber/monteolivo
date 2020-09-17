@@ -7,7 +7,7 @@ const Menu = () => {
       {/* <div className="logo bold ">MonteOlivo</div> */}
       <Link to="/">
         <img
-          width="100px"
+          width="60px"
           src="/img/logo-transparent.png"
           alt="logo monteolivo funeraria"
         />
@@ -44,7 +44,7 @@ const Menu = () => {
               target="_blank"
               href="https://planex.com.bo/"
             >
-              Planes de privisión
+              Planes de previsión
             </a>
           </div>
         </div>

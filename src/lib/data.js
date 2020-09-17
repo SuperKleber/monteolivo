@@ -4,7 +4,7 @@ const data = {
       title: "SERVICIO DOMICILIO 🏠",
       list: [
         "Trámites legales ante las autoridades competentes  para la inhumación",
-        "Legalizacion de certificado de defuncion ",
+        "Legalización de certificado de defuncion ",
         "Certificado de Defuncion debidamente legalizado",
         "Traslados a las salas de velación y al camposanto respectivamente en (1) autocarroza de LUJO",
         "Carroza para el transporte de flores",
@@ -33,7 +33,7 @@ const data = {
     {
       title: "SERVICIO ECOLÓGICO 🌲",
       list: [
-        "Legalizacion Certificado de OBITO",
+        "Legalización Certificado de OBITO",
         "Traslados a las salas de velación y al camposanto respectivamente en (1) autocarroza",
         "Proveer al cliente de un cofre ELEMENTAL",
         "Sábana Santa",
@@ -47,7 +47,7 @@ const data = {
         "Personal uniformado para la atención",
       ],
       offerList: [
-        "Legalizacion Certificado de OBITO",
+        "Legalización Certificado de OBITO",
         "Traslados a las salas de velación y al camposanto respectivamente en (1) autocarroza",
         "Proveer al cliente de un cofre ECOLÓGICO",
         "Sábana Santa",
@@ -67,7 +67,7 @@ const data = {
       title: "SERVICIO ÉLITE 👔",
       list: [
         "Trámites legales ante las autoridades competentes para la inhumación",
-        "Legalizacion del Certificado de OBITO",
+        "Legalización del Certificado de OBITO",
         "Certificado de DEFUNCION debidamente legalizado",
         "Traslados a las salas de velación y al camposanto respectivamente en (1) autocarroza de LUJO",
         "Traslado de flores en una carroza ",
@@ -86,7 +86,7 @@ const data = {
       ],
       offerList: [
         "Trámites legales ante las autoridades competentes para la inhumación",
-        "Legalizacion del Certificado de OBITO",
+        "Legalización del Certificado de OBITO",
         "Certificado de DEFUNCION debidamente legalizado",
         "Traslados a las salas de velación y al camposanto respectivamente en (1) autocarroza de LUJO",
         "Traslado de flores en una carroza ",
@@ -110,7 +110,7 @@ const data = {
       title: "SERVICIO CROWN 👑",
       list: [
         "Trámites legales ante las autoridades competentes para la inhumación",
-        "Legalizacion del Certificado de OBITO",
+        "Legalización del Certificado de OBITO",
         "Certificado de DEFUNCION debidamente legalizado",
         "Traslados a las salas de velación y al camposanto respectivamente en (1) autocarroza de LUJO",
         "Traslado de flores en una carroza ",
@@ -137,7 +137,7 @@ const data = {
       ],
       offerList: [
         "Trámites legales ante las autoridades competentes para la inhumación",
-        "Legalizacion del Certificado de OBITO",
+        "Legalización del Certificado de OBITO",
         "Certificado de DEFUNCION debidamente legalizado",
         "Traslados a las salas de velación y al camposanto respectivamente en (1) autocarroza de LUJO",
         "Traslado de flores en una carroza ",
@@ -169,7 +169,7 @@ const data = {
       title: "SERVICIO ROYAL 🏰",
       list: [
         "Trámites legales ante las autoridades competentes para la inhumación",
-        "Legalizacion del Certificado de OBITO",
+        "Legalización del Certificado de OBITO",
         "Certificado de DEFUNCION debidamente legalizado",
         "Traslados a las salas de velación y al camposanto respectivamente en (1) autocarroza de LUJO",
         "Traslado de flores en una carroza ",
@@ -194,7 +194,7 @@ const data = {
       ],
       offerList: [
         "Trámites legales ante las autoridades competentes para la inhumación",
-        "Legalizacion del Certificado de OBITO",
+        "Legalización del Certificado de OBITO",
         "Certificado de DEFUNCION debidamente legalizado",
         "Traslados a las salas de velación y al camposanto respectivamente en (1) autocarroza de LUJO",
         "Traslado de flores en una carroza ",
@@ -224,7 +224,7 @@ const data = {
       title: "SERVICIO PLATINUM ⬜",
       list: [
         "Trámites legales ante las autoridades competentes para la inhumación",
-        "Legalizacion del Certificado de OBITO",
+        "Legalización del Certificado de OBITO",
         "Certificado de DEFUNCION debidamente legalizado",
         "Traslados a las salas de velación y al camposanto respectivamente en (1) autocarroza de LUJO",
         "Traslado de flores en una carroza ",
@@ -249,7 +249,7 @@ const data = {
       ],
       offerList: [
         "Trámites legales ante las autoridades competentes para la inhumación",
-        "Legalizacion del Certificado de OBITO",
+        "Legalización del Certificado de OBITO",
         "Certificado de DEFUNCION debidamente legalizado",
         "Traslados a las salas de velación y al camposanto respectivamente en (1) autocarroza de LUJO",
         "Traslado de flores en una carroza ",
